@@ -1,0 +1,22 @@
+{
+    "name": "andrejsstepanovs/price-tracker",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrejs Stepanovs",
+            "email": "andrejsstepanovs@gmail.com",
+            "homepage": "https://github.com/andrejsstepanovs"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "fabpot/goutte": "*",
+        "symfony/yaml": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "PriceTracker\\": "src/"
+        }
+    }
+}

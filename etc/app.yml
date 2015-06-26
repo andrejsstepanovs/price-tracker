@@ -1,0 +1,15 @@
+locale: de_DE
+product:
+  - name: "PlayStation 4 Black 500GB"
+    picture: "http://geizhals.at/p/911571.jpg"
+    store:
+      - name: amazon
+        url: "http://www.amazon.de/dp/B00BIYAO3K"
+        selector:
+            path: "#priceblock_ourprice"
+            value: innerHTML
+      - name: saturn
+        url: "http://www.saturn.de/mcs/product/_SONY-PlayStation-4-Konsole-500GB-Schwarz,48352,457550,1459609.html"
+        selector:
+            path: "meta[itemprop=price]"
+            value: content
